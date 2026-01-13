@@ -1,4 +1,4 @@
-# ⚽ Football Investment Efficiency Analysis  
+#  Football Investment Efficiency Analysis  
 ### Top 5 European Leagues (2014–2024)
 
 ---
@@ -41,7 +41,7 @@ The dashboards are designed for **board-level decision making**, providing a str
 
 ---
 
-### 1️⃣ Market Overview: Cost of Competing in European Football
+###  Market Overview: Cost of Competing in European Football
 
 This visualization provides **context** on the financial landscape of elite European football.  
 It shows cumulative club spending over the analysis period, highlighting the disparity in capital requirements across leagues and clubs.  
@@ -52,7 +52,7 @@ It shows cumulative club spending over the analysis period, highlighting the dis
 
 ---
 
-### 2️⃣ Club Investment Efficiency: Best Value Clubs
+###  Club Investment Efficiency: Best Value Clubs
 
 The following dashboard identifies clubs that **maximize on-field performance relative to financial resources**.  
 It highlights clubs that provide the **best value**, combining high points, wins, and efficiency per €100M spent.
@@ -63,7 +63,7 @@ It highlights clubs that provide the **best value**, combining high points, wins
 
 ---
 
-### 3️⃣ Club-Level Dashboards (Other Views)
+###  Club-Level Dashboards (Other Views)
 
 **Focus:** Provide additional analysis for detailed evaluation:
 
@@ -73,7 +73,7 @@ It highlights clubs that provide the **best value**, combining high points, wins
 
 ---
 
-### 4️⃣ League-Level Dashboards
+###  League-Level Dashboards
 
 **Focus:** Understand macro-level efficiency and cross-league comparisons.
 
