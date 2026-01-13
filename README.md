@@ -3,7 +3,7 @@
 
 ---
 
-## 📌 Client Background
+##  Client Background
 
 A Middle Eastern sovereign investment group is exploring the acquisition of a European football club as part of a long-term global sports, media, and entertainment investment strategy.
 
@@ -13,7 +13,7 @@ This project evaluates football performance through the lens of **capital effici
 
 ---
 
-## 🎯 North Star Metrics
+##  North Star Metrics
 
 To align sporting outcomes with business objectives, this analysis focuses on **efficiency-based KPIs**, not raw spending or brand prestige.
 
@@ -40,7 +40,7 @@ These metrics enable fair comparison across clubs and leagues with vastly differ
 
 ---
 
-## 📊 Planned Executive Dashboards
+##  Planned Executive Dashboards
 
 > Dashboards will be implemented in a later phase of the project.
 
@@ -58,7 +58,7 @@ The following visualizations are designed for **board-level decision making**:
 
 ---
 
-## 🗂️ Data Structure
+##  Data Structure
 
 All analysis is performed using SQL on a normalized football database.
 
@@ -79,29 +79,29 @@ All analysis is performed using SQL on a normalized football database.
 
 ---
 
-## 🔍 Analytical Questions
+##  Analytical Questions
 
 This project is structured around three core business questions:
 
-### 1️⃣ Do Higher-Spending Clubs Perform Better?
+###  Do Higher-Spending Clubs Perform Better?
 - Compare total transfer expenditure to total points, wins, and goal difference.
 - Evaluate whether increased spending produces diminishing or compounding returns.
 
 ---
 
-### 2️⃣ Which Clubs Outperform Their Financial Resources?
+###  Which Clubs Outperform Their Financial Resources?
 - Identify clubs with high wins or points relative to squad market value.
 - Highlight consistently efficient clubs as potential acquisition targets.
 
 ---
 
-### 3️⃣ Which League Is the Most Financially Efficient?
+###  Which League Is the Most Financially Efficient?
 - Aggregate league-level points and transfer expenditure.
 - Rank leagues by **€ spent per point** to assess macro-level efficiency.
 
 ---
 
-## 📈 Interpretation Framework (Post-Dashboard)
+##  Interpretation Framework (Post-Dashboard)
 
 Once dashboards are implemented, insights will be interpreted through:
 
@@ -114,7 +114,7 @@ Interpretation will focus on **strategic implications**, not tactical football a
 
 ---
 
-## 🧠 Business Relevance
+##  Business Relevance
 
 From an investment perspective:
 
@@ -126,7 +126,7 @@ This analysis reframes football performance as a **return-on-investment problem*
 
 ---
 
-## 🛠️ Tools & Skills Demonstrated
+##  Tools & Skills Demonstrated
 
 - Advanced SQL (CTEs, UNION ALL, subqueries, aggregation)
 - KPI design and efficiency metrics
@@ -134,8 +134,7 @@ This analysis reframes football performance as a **return-on-investment problem*
 - Executive-level data storytelling
 
 ---
-
-## 🚀 Next Steps
+##  Next Steps
 
 - Implement interactive dashboards (Tableau / Power BI)
 - Add year-by-year efficiency trends
