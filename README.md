@@ -54,7 +54,7 @@ It shows cumulative club spending over the analysis period, highlighting the sig
 
 This view is intended as **context**, not a decision tool. It establishes baseline entry costs before evaluating performance efficiency.
 
-![Market Overview – Club Spending](visuals/market_overview_club_spending.png)
+![Market Overview – Club Spending](club_spending(10yrs).png)
 
 ### Club-Level Dashboards
 - Wins vs Squad Market Value (efficiency scatter plot)
