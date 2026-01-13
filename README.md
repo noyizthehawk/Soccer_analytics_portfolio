@@ -45,6 +45,16 @@ These metrics enable fair comparison across clubs and leagues with vastly differ
 > Dashboards will be implemented in a later phase of the project.
 
 The following visualizations are designed for **board-level decision making**:
+---
+
+## Market Overview: Cost of Competing in European Football
+
+The following visualization provides context on the financial landscape of elite European football.  
+It shows cumulative club spending over the analysis period, highlighting the significant disparity in capital requirements across leagues and clubs.
+
+This view is intended as **context**, not a decision tool. It establishes baseline entry costs before evaluating performance efficiency.
+
+![Market Overview – Club Spending](visuals/market_overview_club_spending.png)
 
 ### Club-Level Dashboards
 - Wins vs Squad Market Value (efficiency scatter plot)
