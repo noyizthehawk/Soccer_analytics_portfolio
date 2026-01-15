@@ -141,6 +141,12 @@ All analysis is performed using SQL on a normalized football database.
 - **players** — Player market values and club affiliation  
 - **transfers** — Transfer fees and transaction dates  
 
+### Database Schema
+
+The following diagram illustrates the relationships between tables, primary keys, and foreign keys:
+
+![Database Structure](data_structure.png)
+
 ### Scope
 - **Leagues:** Premier League (GB1), La Liga (ES1), Serie A (IT1), Bundesliga (L1), Ligue 1 (FR1)  
 - **Timeframe:** 2014–2024  
