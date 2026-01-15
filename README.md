@@ -181,13 +181,10 @@ This analysis reframes football performance as a return-on-investment problem, a
 
 ---
 
-## Next Steps
+## SQL Scripts
 
-- Expand interactive dashboards using Tableau or Power BI  
-- Add rolling 3–5 year efficiency trend analysis  
-- Integrate wage and payroll data if available  
-- Publish formal executive summary recommendations  
+All SQL queries used in this analysis are available on GitHub.  
+These scripts include all data preparation, aggregation, and efficiency calculations used for this project.
 
----
+📂 [View and download SQL scripts on GitHub](https://github.com/noyizthehawk/Soccer_analysis_portfolio/tree/main/sql)
 
-This project is designed as a portfolio-grade analytics case study, combining technical execution with strategic business storytelling.
