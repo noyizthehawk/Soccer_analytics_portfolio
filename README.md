@@ -1,29 +1,29 @@
-#  Football Investment Efficiency Analysis  
+# Football Investment Efficiency Analysis  
 ### Top 5 European Leagues (2014–2024)
 
 ---
 
 ## Client Background
 
-A Middle Eastern sovereign investment group is exploring the acquisition of a European football club as part of a long-term global sports, media, and entertainment investment strategy.  
+A Middle Eastern sovereign investment group is exploring the acquisition of a European football club as part of a long-term global sports, media, and entertainment investment strategy.
 
-While elite clubs command premium valuations, historical evidence suggests that **financial dominance does not always translate into proportional on-pitch success**. The client’s objective is not only to acquire a prestigious asset, but to **identify clubs and leagues that consistently convert financial investment into competitive performance**.  
+While elite clubs command premium valuations, historical evidence suggests that financial dominance does not always translate into proportional on-pitch success. The client’s objective is not only to acquire a prestigious asset, but to identify clubs and leagues that consistently convert financial investment into competitive performance.
 
-This project evaluates football performance through the lens of **capital efficiency**, treating clubs as investment vehicles rather than purely sporting institutions.
+This project evaluates football performance through the lens of capital efficiency, treating clubs as investment vehicles rather than purely sporting institutions.
 
 ---
 
 ## North Star Metrics
 
-To align sporting outcomes with business objectives, this analysis focuses on **efficiency-based KPIs**, not raw spending or brand prestige.
+To align sporting outcomes with business objectives, this analysis prioritizes efficiency-based KPIs rather than raw spending or brand prestige.
 
 ### Performance Metrics
-- **Total Points (2014–2024)** — Measures long-term competitive success  
-- **Total Wins** — Captures match-level performance and consistency  
-- **Goal Difference** — Indicates dominance and tactical superiority beyond wins alone  
+- **Total Points (2014–2024)** — Long-term competitive success  
+- **Total Wins** — Match-level consistency  
+- **Goal Difference** — Tactical dominance beyond wins alone  
 
 ### Financial Metrics
-- **Total Transfer Expenditure (2014–2024)** — Cumulative capital investment in squad building  
+- **Total Transfer Expenditure (2014–2024)** — Capital invested in squad building  
 - **Total Squad Market Value (2024 snapshot)** — Proxy for current asset valuation  
 
 ### Efficiency Metrics (Core KPIs)
@@ -31,55 +31,50 @@ To align sporting outcomes with business objectives, this analysis focuses on **
 - **Points per €100M Squad Value**  
 - **€ Spent per League Point**  
 
-These metrics enable fair comparison across clubs and leagues with vastly different financial scales.
+These metrics enable fair comparisons across clubs and leagues operating at vastly different financial scales.
 
 ---
 
 ## Executive Dashboards
 
-The dashboards are designed for **board-level decision making**, providing a structured way to answer investment-relevant questions.
+The dashboards are designed for board-level decision making, translating complex football and financial data into actionable investment insights.
 
 ---
 
-###  Market Overview: Cost of Competing in European Football
+### Market Overview: Cost of Competing in European Football
 
-This visualization provides **context** on the financial landscape of elite European football.  
-It shows cumulative club spending over the analysis period, highlighting the disparity in capital requirements across leagues and clubs.  
+This visualization provides context on the financial landscape of elite European football.  
+It highlights cumulative club spending over the analysis period and illustrates the disparity in capital requirements across leagues.
 
-> **Purpose:** Establish baseline entry costs before evaluating performance efficiency.
+**Purpose:** Establish baseline entry costs before evaluating performance efficiency.
 
 ![Market Overview – Club Spending](club_spending_10yrs.png)
 
 ---
 
-###  Club Investment Efficiency: Best Value Clubs
+### Club Investment Efficiency: Best Value Clubs
 
-The following dashboard identifies clubs that **maximize on-field performance relative to financial resources**.  
-It highlights clubs that provide the **best value**, combining high points, wins, and efficiency per €100M spent.
+This dashboard identifies clubs that maximize on-field performance relative to financial resources.  
+It highlights clubs delivering strong points and wins while maintaining superior efficiency per €100M invested.
 
-> **Insight:** Investors can quickly spot clubs that consistently outperform their financial investment. These are potential acquisition targets or clubs worthy of closer evaluation.
+**Insight:** These clubs represent potential acquisition targets or candidates for deeper due diligence due to their ability to outperform financially stronger competitors.
 
 ![Club Investment Efficiency – Best Value](best_value_dashboard.png)
 
 ---
 
-###  Club-Level Dashboards (Other Views)
+### League-Level Investment Efficiency
 
-**Focus:** Provide additional analysis for detailed evaluation:
+This dashboard evaluates macro-level efficiency across Europe’s top leagues by aggregating performance and financial investment at the league level.
 
-- Wins vs Squad Market Value (efficiency scatter plot)  
-- Points per €100M Squad Value (ranking table)  
-- Goal Difference vs Total Spend (performance quadrants)  
+It enables direct comparison of:
+- Total league spend  
+- Total league points  
+- € spent per league point  
 
----
+**Insight:** Leagues with lower € spent per point demonstrate stronger structural efficiency and may offer more attractive environments for long-term investment.
 
-###  League-Level Dashboards
-
-**Focus:** Understand macro-level efficiency and cross-league comparisons.
-
-- Total League Spend vs Total League Points  
-- € Spent per Point by League (efficiency ranking)  
-- Cross-league efficiency comparison (Top 5 leagues)  
+![League Investment Efficiency](league_efficiency.png)
 
 ---
 
@@ -88,10 +83,10 @@ It highlights clubs that provide the **best value**, combining high points, wins
 All analysis is performed using SQL on a normalized football database.
 
 ### Key Tables
-- **`games`** — Match results, goals, seasons, competitions  
-- **`clubs`** — Club metadata and domestic league classification  
-- **`players`** — Player market values and club affiliation  
-- **`transfers`** — Transfer fees and transaction dates  
+- **games** — Match results, goals, seasons, competitions  
+- **clubs** — Club metadata and domestic league classification  
+- **players** — Player market values and club affiliation  
+- **transfers** — Transfer fees and transaction dates  
 
 ### Scope
 - **Leagues:** Premier League (GB1), La Liga (ES1), Serie A (IT1), Bundesliga (L1), Ligue 1 (FR1)  
@@ -102,65 +97,60 @@ All analysis is performed using SQL on a normalized football database.
 
 ## Analytical Questions
 
-This project is structured around three core business questions:
+This project is structured around three core investment-driven questions:
 
-### 1️⃣ Do Higher-Spending Clubs Perform Better?
-- Compare total transfer expenditure to total points, wins, and goal difference  
-- Evaluate whether increased spending produces diminishing or compounding returns  
+### 1. Do higher-spending clubs perform better?
+- Compare transfer expenditure to points, wins, and goal difference  
+- Assess diminishing versus compounding returns on spending  
 
-### 2️⃣ Which Clubs Outperform Their Financial Resources?
-- Identify clubs with high wins or points relative to squad market value  
-- Highlight consistently efficient clubs as potential acquisition targets  
+### 2. Which clubs outperform their financial resources?
+- Identify clubs with high performance relative to squad value  
+- Highlight consistent efficiency leaders  
 
-### 3️⃣ Which League Is the Most Financially Efficient?
-- Aggregate league-level points and transfer expenditure  
-- Rank leagues by **€ spent per point** to assess macro-level efficiency  
+### 3. Which league is the most financially efficient?
+- Aggregate league-level spend and performance  
+- Rank leagues by € spent per point  
 
 ---
 
 ## Interpretation Framework
 
-Once dashboards are implemented, insights will be interpreted through:
+Insights from the dashboards are interpreted through:
+- Efficiency leaders versus financial heavyweights  
+- Outliers: over- and under-performing clubs or leagues  
+- Sustainability of performance relative to spend  
+- Risk-adjusted investment attractiveness  
 
-- **Efficiency leaders vs financial heavyweights**  
-- **Outliers** — clubs or leagues significantly over- or under-performing  
-- **Sustainability of performance** relative to spend  
-- **Risk-adjusted investment attractiveness**  
-
-> Interpretation focuses on **strategic implications**, not tactical football analysis.
+Interpretation focuses on strategic investment implications rather than tactical football analysis.
 
 ---
 
 ## Business Relevance
 
-- Football clubs are **capital-intensive assets**  
-- Performance drives **media revenue, sponsorships, and valuation**  
-- Efficient capital allocation correlates with **long-term asset growth**  
+- Football clubs are capital-intensive assets  
+- Performance drives media revenue, sponsorships, and valuation  
+- Efficient capital allocation supports long-term asset appreciation  
 
-This analysis reframes football performance as a **return-on-investment problem**, aligning sporting success with financial discipline.
+This analysis reframes football performance as a return-on-investment problem, aligning sporting outcomes with financial discipline.
 
 ---
 
-## Tools & Skills Demonstrated
+## Tools and Skills Demonstrated
 
 - Advanced SQL (CTEs, UNION ALL, subqueries, aggregation)  
-- KPI design and efficiency metrics  
-- Financial-performance modeling  
+- KPI design and efficiency modeling  
+- Financial-performance analysis  
 - Executive-level data storytelling  
 
 ---
 
 ## Next Steps
 
-- Implement interactive dashboards (Tableau / Power BI)  
-- Add year-by-year efficiency trends  
-- Integrate wage data (if available)  
-- Publish executive summary insights  
+- Expand interactive dashboards using Tableau or Power BI  
+- Add year-by-year efficiency trend analysis  
+- Integrate wage and payroll data if available  
+- Publish executive summary insights and recommendations  
 
 ---
 
-*This project is designed as a portfolio-grade analytics case study, combining technical execution with business storytelling.*
-
----
-
-
+This project is designed as a portfolio-grade analytics case study, combining technical execution with strategic business storytelling.
