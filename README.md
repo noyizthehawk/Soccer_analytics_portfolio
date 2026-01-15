@@ -186,5 +186,5 @@ This analysis reframes football performance as a return-on-investment problem, a
 All SQL queries used in this analysis are available on GitHub.  
 These scripts include all data preparation, aggregation, and efficiency calculations used for this project.
 
-📂 [View and download SQL scripts on GitHub](https://github.com/noyizthehawk/Soccer_analysis_portfolio/tree/main/sql)
+📂 [View and download SQL scripts on GitHub](https://github.com/noyizthehawk/Soccer_analytics_portfolio/tree/main/sql)
 
