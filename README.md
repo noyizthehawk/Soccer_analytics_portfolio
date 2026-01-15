@@ -78,6 +78,59 @@ It enables direct comparison of:
 
 ---
 
+## Executive Dashboard Analysis & Financial Recommendation
+
+### Market Context
+
+Club spending across Europe is highly skewed. A small group of elite clubs account for a disproportionate share of total transfer expenditure, while the majority of clubs operate with significantly lower capital outlay.
+
+Entry into the top spending tier requires sustained investment exceeding €1.5–2.0B over a decade. Below this tier, competitive participation remains viable at a fraction of the cost.
+
+**Implication:** Top-tier clubs resemble high-cost, low-efficiency assets with diminishing marginal returns.
+
+---
+
+### Club-Level Efficiency Insights
+
+The best-value analysis highlights several clubs operating in the low-spend, high-performance quadrant. These clubs consistently generate competitive outcomes while maintaining disciplined financial profiles.
+
+High-spend clubs achieve strong results but often at poor efficiency ratios. In contrast, mid-market clubs demonstrate superior return on investment when performance is normalized by capital deployed.
+
+**Implication:** The most attractive acquisition targets are not the highest-performing clubs, but those that deliver above-median performance with below-median spending.
+
+---
+
+### League-Level Efficiency Insights
+
+League aggregation reveals meaningful structural differences:
+
+- The Premier League exhibits the highest total spend but the weakest efficiency in euros per point.
+- La Liga and Ligue 1 demonstrate the strongest capital efficiency despite lower global revenue.
+- The Bundesliga and Serie A balance moderate spend with relatively strong efficiency and governance structures.
+
+**Implication:** League selection materially impacts long-term investment returns, independent of club quality.
+
+---
+
+### Financial Recommendation
+
+**Recommended Strategy:**  
+Target a mid-table club in La Liga, Ligue 1, or the Bundesliga with sustained efficiency rather than short-term overperformance.
+
+**Rationale:**
+- Lower acquisition and operating costs  
+- Higher marginal return per euro spent  
+- Reduced exposure to wage inflation  
+- Greater upside through player development and trading  
+- Clear pathway to asset appreciation without elite-level spending  
+
+**Not Recommended:**
+- Acquiring Premier League clubs purely for performance efficiency  
+- Overpaying for historically successful but financially inefficient clubs  
+- Targeting unstable clubs based solely on short-term efficiency metrics  
+
+---
+
 ## Data Structure
 
 All analysis is performed using SQL on a normalized football database.
@@ -97,31 +150,9 @@ All analysis is performed using SQL on a normalized football database.
 
 ## Analytical Questions
 
-This project is structured around three core investment-driven questions:
-
-### 1. Do higher-spending clubs perform better?
-- Compare transfer expenditure to points, wins, and goal difference  
-- Assess diminishing versus compounding returns on spending  
-
-### 2. Which clubs outperform their financial resources?
-- Identify clubs with high performance relative to squad value  
-- Highlight consistent efficiency leaders  
-
-### 3. Which league is the most financially efficient?
-- Aggregate league-level spend and performance  
-- Rank leagues by € spent per point  
-
----
-
-## Interpretation Framework
-
-Insights from the dashboards are interpreted through:
-- Efficiency leaders versus financial heavyweights  
-- Outliers: over- and under-performing clubs or leagues  
-- Sustainability of performance relative to spend  
-- Risk-adjusted investment attractiveness  
-
-Interpretation focuses on strategic investment implications rather than tactical football analysis.
+1. Do higher-spending clubs perform better?  
+2. Which clubs outperform their financial resources?  
+3. Which league is the most financially efficient?  
 
 ---
 
@@ -147,9 +178,9 @@ This analysis reframes football performance as a return-on-investment problem, a
 ## Next Steps
 
 - Expand interactive dashboards using Tableau or Power BI  
-- Add year-by-year efficiency trend analysis  
+- Add rolling 3–5 year efficiency trend analysis  
 - Integrate wage and payroll data if available  
-- Publish executive summary insights and recommendations  
+- Publish formal executive summary recommendations  
 
 ---
 
